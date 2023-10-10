@@ -2,6 +2,9 @@ import React from 'react';
 import Malli from '../assets/3Dmalli.png';
 import Mallii2 from '../assets/Malli2.png';
 import {Link} from 'react-scroll'
+import Tulossa from '../assets/tulossa.png'
+import Tulossa2 from '../assets/Tulossa2.png'
+import Portfolioweb from '../assets/portfolioweb.png'
 
 const Työt = () => {
   return (
@@ -19,10 +22,10 @@ const Työt = () => {
           <div style={{ background: `url(${Malli})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover efekti */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>3D mallinnus luokasta</span>
+              <span className='text-2xl font-bold text-white tracking-wider'>3D malli luokasta</span>
               <div>
                 <a href=""></a>
-                <a href="https://github.com/Zonzaaa?tab=projects">
+                <a href="https://github.com/Zonzaaa/portfolio-react-app/blob/master/assets/3Dmalli.png">
                   <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Katso koko työ tästä</button>
                 </a>
               </div>
@@ -36,7 +39,7 @@ const Työt = () => {
               <span className='text-2xl font-bold text-white tracking-wider'>Rasberry Pi kotelo</span>
               <div>
                 <a href=""></a>
-                <a href="https://github.com/Zonzaaa?tab=projects">
+                <a href="https://github.com/Zonzaaa/portfolio-react-app/blob/master/assets/Malli2.png">
                   <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Katso koko työ tästä</button>
                 </a>
               </div>
@@ -44,13 +47,13 @@ const Työt = () => {
           </div>
 
           {/* Grid Item 3 */}
-          <div style={{ background: `url(${Malli})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{ background: `url(${Portfolioweb})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover efekti */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Projektin nimi 3</span>
+              <span className='text-2xl font-bold text-white tracking-wider'>Web Portfolio React</span>
               <div>
-                <a href="/">Linkki 3</a>
-                <a href="/">
+                <a href="/"></a>
+                <a href="https://arttulilja.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Katso koko työ tästä</button>
                 </a>
               </div>
@@ -58,42 +61,42 @@ const Työt = () => {
           </div>
 
           {/* Grid Item 4 */}
-          <div style={{ background: `url(${Malli})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{ background: `url(${Tulossa2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover efekti */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Projektin nimi 4</span>
+              <span className='text-2xl font-bold text-white tracking-wider'>Tulossa</span>
               <div>
-                <a href="/">Linkki 4</a>
+                <a href="/"></a>
                 <a href="/">
-                  <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Katso koko työ tästä</button>
+                  <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Tulossa</button>
                 </a>
               </div>
             </div>
           </div>
 
           {/* Grid Item 5 */}
-          <div style={{ background: `url(${Malli})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{ background: `url(${Tulossa2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover efekti */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Projektin nimi 5</span>
+              <span className='text-2xl font-bold text-white tracking-wider'>Tulossa</span>
               <div>
-                <a href="/">Linkki 5</a>
+                <a href="/"></a>
                 <a href="/">
-                  <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Katso koko työ tästä</button>
+                  <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Tulossa</button>
                 </a>
               </div>
             </div>
           </div>
 
           {/* Grid Item 6 */}
-          <div style={{ background: `url(${Malli})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div style={{ background: `url(${Tulossa2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/* Hover efekti */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>Projektin nimi 6</span>
+              <span className='text-2xl font-bold text-white tracking-wider'>Tulossa</span>
               <div>
-                <a href="/">Linkki 6</a>
+                <a href="/"></a>
                 <a href="/">
-                  <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Katso koko työ tästä</button>
+                  <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>Tulossa</button>
                 </a>
               </div>
             </div>
