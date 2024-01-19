@@ -7,6 +7,7 @@ import ReactImg from '../assets/react.png'
 import Node from '../assets/node.png'
 import Tailwind from '../assets/tailwind.png'
 
+
 const Taidot = () => {
   return (
     <div name='Taidot' className='w-full h-screen bg-[#0a2c2f] text-gray-300'>
